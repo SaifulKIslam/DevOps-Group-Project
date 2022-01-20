@@ -28,9 +28,9 @@ output "Building the Petclinic FE"
 cd ./spring-petclinic-angular/; npm install; npm run-script build; cd ..
 
 output "Building spring-petclinic-angular"
-docker build --no-cache -t arichards98/frontend:latest ./spring-petclinic-angular
+docker build --no-cache -t saifulkislam/frontend:latest ./spring-petclinic-angular
 
-if [[ "$(docker images -q arichards98/frontend:latest 2> /dev/null)" == "" ]]; then
+if [[ "$(docker images -q saifulkislam/frontend:latest 2> /dev/null)" == "" ]]; then
     error "could not rebuild image"
 fi
 
@@ -38,16 +38,16 @@ output "Running maven clean install to rebuild the jar file"
 cd ./spring-petclinic-rest/; mvn clean install; cd ..
 
 output "Building spring-petclinic-rest"
-docker build --no-cache -t arichards98/backend:latest ./spring-petclinic-rest
+docker build --no-cache -t saifulkislam/backend:latest ./spring-petclinic-rest
 
-if [[ "$(docker images -q arichards98/backend:latest 2> /dev/null)" == "" ]]; then
+if [[ "$(docker images -q saifulkislam/backend:latest 2> /dev/null)" == "" ]]; then
     error "could not rebuild image"
 fi
 
 output "Building nginx image"
-docker build --no-cache -t arichards98/nginx:latest ./NGINX
+docker build --no-cache -t saifulkislam/nginx:latest ./NGINX
 
-if [[ "$(docker images -q arichards98/nginx:latest 2> /dev/null)" == "" ]]; then
+if [[ "$(docker images -q saifulkislam/nginx:latest 2> /dev/null)" == "" ]]; then
     error "could not rebuild image"
 fi
 
