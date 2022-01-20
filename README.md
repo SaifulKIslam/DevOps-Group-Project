@@ -57,3 +57,26 @@ The project planning was done through a Jira board. This consists of a Backlog, 
 
 <img src="/images/jira.png"/>
 
+<a name="services"></a>
+### Collaboration
+
+This wa sour first group project and so we tried to combine all of our knowledge and skills that we had gained so far in order to work together effectively. We used a [shared Github repository](https://github.com/AAtaya95/DevOps-Group-Project) where all of the other team members to become collaborators.
+
+<a name="arch"></a>
+## Architecture
+
+<a name="cla"></a>
+### Infrastructure
+Shown below is a diagram of the Infrastructure we aimed to achieve:
+
+<a name=risks></a>
+## Risk Assessment
+
+For the risk assessments we produced an initial risk assessment that was created before we began the project. Upon completion of the project we then went back to the initial assessment to review it and create our final risk assessment.
+
+<a name=initial></a>
+### Initial Risk Assessment
+
+Below is a screenshot of our initial risk assessment:
+
+<img src="/images/initialrisk.png"/>
