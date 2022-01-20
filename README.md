@@ -15,7 +15,8 @@
     - [Jira Board](#planning)
     - [Collaboration](#services)
 - [Architecture](#arch)
-    - [Infrastructure](#cla)
+    - [Technologies Used](#tech)
+    - [Reasons for using these Technologies](#reasons)
 - [Risk Assessment](#risks)
     - [Initial Risk Assessment](#initialrisk)
     - [Final Risk Assessment](#reviewedrisk)
@@ -65,9 +66,45 @@ This wa sour first group project and so we tried to combine all of our knowledge
 <a name="arch"></a>
 ## Architecture
 
-<a name="cla"></a>
-### Infrastructure
-Shown below is a diagram of the Infrastructure we aimed to achieve:
+<a name="tech"></a>
+## Technologies Used
+
+* Project Tracking: Jira
+* Version Control System: Git(Github)
+* Cloud Service: Amazon Web Services
+* Containerization: Docker
+* Version Control for Docker Images: Dockerhub
+* Continous Intergration Server: Jenkins
+* Orchestration Service for Containers: Kubernetes
+* Load Balancing: Nginx
+
+<a name=reasons></a>
+### Reasons for using these Technologies
+
+#### Jira
+When it came to deciding which service we should use for our Kanban Board, the group agreed that Jira would undoubtedly be the best choice. This is because of Trellos ease of use and that each team member has the most experience with Trello over any other type of Kanban board. Trello also makes collaboration with others very straightforward.
+
+#### Git(Github)
+We decided to use Git as our VCS due to Git being the most popular VCS and it is also the VCS that we had the most experience with as a group. We chose to use Github due to its ability to allow seamless collaboration without compromising the integrity of the original project.
+
+#### Amazon Web Services
+We used AWS as our cloud provider to help increase our knowledge of AWS and the tools it provides. Although the team had more experience with using Google Cloud Platform, we still had some knowledge of AWS. We felt as though we should use AWS to help advance our comprehension of AWS and take advantage of the services it has to offer. We had also not used AWS in project work prior to this and we felt as though we had the confidence to challenge ourselves. The AWS services also seemed to be tailored better to fit our project aim. All of these things contributed to our decision to use AWS.
+
+#### Docker
+Docker is the container service that we chose to use for this project. As a group, we decided that it would be best for us to use Docker as we all had experience with the service from our previous projects. That coupled with the fact that Docker is the industry leading service for containerization and its rapid deployment process is why we opted to use Docker.
+
+#### Dockerhub
+The decision to use Dockerhub as the repository for our container images was a fairly simple one. We chose to use Dockerhub as all of the team members had an account and it was also the only version control for Docker images that we had experience with at this current time. 
+
+#### Jenkins
+Jenkins is the Continous Intergration Server that we decided to use for this project. We decided to use Jenkins due to our experience with the software, the fact that it is free to use and it is also easy to modify. The automatic build feature was also taken into consideration when we opted for the use of Jenkins. 
+
+#### Kubernetes
+The container orchestration service that we selected to use for this project was Kubernetes. We decided on Kubernetes due to its easy scalability and realiabilty. We had also not used Kubernetes in previous projects and felt that it would be good to attempt its use in this project.
+
+#### NGINX
+We used NGINX as our load balancer due to the teams previous expirience with using this software as well as the fact that it is simple to use, yet is still powerful.
+
 
 <a name=risks></a>
 ## Risk Assessment
