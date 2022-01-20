@@ -20,8 +20,6 @@
 - [Risk Assessment](#risks)
     - [Initial Risk Assessment](#initialrisk)
     - [Final Risk Assessment](#reviewedrisk)
-- [Technologies utilised](#tech)
-    - [Reasons for using these Technologies](#reasons)
 - [Things that went well](#suc)
 - [Areas for improvement ](#improve)
 
@@ -124,3 +122,19 @@ Below is a screenshot of our initial risk assessment:
 Below is a screenshot of part of our final Risk Assessment:
 
 <img src="/images/reviewedrisk.png"/>
+
+<a name="suc"></a>
+## Things that went well 
+
+### Planning
+In the initial stages we worked on a project plan and set out task lists and different stages of the project
+
+### Working Through Barriers
+Despite Various setbacks and some very challenging ones we worked tyo try and deliver something.
+
+<a name="improve"></a>
+## Areas for improvement:
+
+### Familiarity with the resources used
+One area for improvement would be how familiar we were with certain resources used in the project. Although we had some experience of all of the resources used, some of the resources were more difficult to understand as we had not used them on this level before. This meant that some project time was spent researching and learning how these resources could be used for our intended purposes. 
+
