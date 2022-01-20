@@ -55,5 +55,5 @@ To complete this project we chose to deploy the application via the use of Terra
 
 The project planning was done through a Jira board. This consists of a Backlog, sprint, MOSCOW order of prioritisation as well as items to check on completion. Updates were made to this board constantly throughout development. 
 
-<img src="DEVOPPS-GROUP=PROJECT/Images/jira.png"/>
+<img src="/images/jira.png"/>
 
