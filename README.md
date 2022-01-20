@@ -17,8 +17,8 @@
 - [Architecture](#arch)
     - [Infrastructure](#cla)
 - [Risk Assessment](#risks)
-    - [Initial Risk Assessment](#initial)
-    - [Final Risk Assessment](#finalra)
+    - [Initial Risk Assessment](#initialrisk)
+    - [Final Risk Assessment](#reviewedrisk)
 - [Technologies utilised](#tech)
     - [Reasons for using these Technologies](#reasons)
 - [Things that went well](#suc)
@@ -74,9 +74,16 @@ Shown below is a diagram of the Infrastructure we aimed to achieve:
 
 For the risk assessments we produced an initial risk assessment that was created before we began the project. Upon completion of the project we then went back to the initial assessment to review it and create our final risk assessment.
 
-<a name=initial></a>
+<a name=initialrisk></a>
 ### Initial Risk Assessment
 
 Below is a screenshot of our initial risk assessment:
 
 <img src="/images/initialrisk.png"/>
+
+<a name=reviewedrisk></a>
+### Reviewed Risk Assessment
+
+Below is a screenshot of part of our final Risk Assessment:
+
+<img src="/images/reviewedrisk.png"/>
